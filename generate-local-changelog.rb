@@ -1,8 +1,8 @@
 class GenerateLocalChangelog < Formula
   desc "Generate a CHANGELOG for your project using only local git history. No internet connection or git server API is required."
   homepage "https://github.com/neogeek/generate-local-changelog"
-  url "https://github.com/neogeek/generate-local-changelog/archive/v1.0.3.tar.gz"
-  sha256 "f05143e80b12e7fc5f5ecbfc0c37043c17d6be804541d9ce0930b852c81c2907"
+  url "https://github.com/neogeek/generate-local-changelog/archive/refs/tags/v2.0.0.tar.gz"
+  sha256 "f798a4347f32ece1f8e2709f6776f6e1305f856376cceec693a23fa4199ffeb6"
 
   def install
     bin.install "bin/generate-local-changelog"
