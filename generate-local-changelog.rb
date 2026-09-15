@@ -1,21 +1,21 @@
 class GenerateLocalChangelog < Formula
-  version '2.0.1'
+  version '2.0.2'
   desc 'Generate a CHANGELOG for your project using only local git history. No internet connection or git server API is required.'
   homepage 'https://github.com/neogeek/generate-local-changelog'
 
   on_macos do
     if Hardware::CPU.intel?
-      url 'https://github.com/neogeek/generate-local-changelog/raw/refs/tags/v2.0.1/bin/macos/x86_64/generate-local-changelog'
-      sha256 '2462db725313cb2e30a6873a23ef69ccc3f691659de711cdfa92061b38ea3b12'
+      url 'https://github.com/neogeek/generate-local-changelog/raw/refs/tags/v2.0.2/bin/macos/x86_64/generate-local-changelog'
+      sha256 '3ac0e3de73117bd4c4387f45836693889c8ce189c32c370731f98165bacdb8cd'
     elsif Hardware::CPU.arm?
-      url 'https://github.com/neogeek/generate-local-changelog/raw/refs/tags/v2.0.1/bin/macos/aarch64/generate-local-changelog'
-      sha256 '85b557c63b7af3466052233b3662632a1253d9ea3561ad0401efd2214296a8c1'
+      url 'https://github.com/neogeek/generate-local-changelog/raw/refs/tags/v2.0.2/bin/macos/aarch64/generate-local-changelog'
+      sha256 'b4bc0a6ef70ec4c0fa866b24a00fdfbfefd44ca12f3050e7c7e51ff32d8ea01d'
     end
   end
 
   on_linux do
-    url 'https://github.com/neogeek/generate-local-changelog/raw/refs/tags/v2.0.1/bin/linux/generate-local-changelog'
-    sha256 '469de7ed1a19983a4628530afe6aa78d3303aa67d48674a6a6679cea2b1a8927'
+    url 'https://github.com/neogeek/generate-local-changelog/raw/refs/tags/v2.0.2/bin/linux/generate-local-changelog'
+    sha256 '9b10638fbdbfaf30e2611f5f02d30ab9053a9b19ab2abd181febee977f0cdb0f'
   end
 
 
